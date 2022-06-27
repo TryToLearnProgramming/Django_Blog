@@ -1,8 +1,8 @@
 {% extends 'blog/base.html' %}
-
+{% load static %}
 {% block content %}
     <div class="jumbotron">
-        <h2>Please Login :</h2>
+        <h2 class="login">Please Login :</h2>
         <h3>(Must be SuperUser, Please check with site admin)</h3>
 
         {% if form.errors %}
